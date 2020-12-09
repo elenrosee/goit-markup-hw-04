@@ -91,13 +91,14 @@ body {
   color: var(--accent-color);
 }
 .contact-link {
+  display: flex;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--text-color-grey);
 }
 .auth-nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -105,14 +106,14 @@ body {
   fill: currentColor;
   margin-right: 10px;
 }
-.envelope {
+/* .envelope {
   position: relative;
   bottom: -1px;
 }
 .smartphone {
   position: relative;
   bottom: -2.5px;
-}
+} */
 .auth-nav .item + .item {
   margin-left: 50px;
 }
