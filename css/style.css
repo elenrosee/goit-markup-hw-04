@@ -62,7 +62,6 @@ body {
 .header-nav {
   align-items: center;
   display: flex;
-  padding: 32px 0px;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -95,11 +94,15 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--text-color-grey);
+  align-items: center;
 }
 .auth-nav {
   display: flex;
-  align-items: center;
   margin-left: auto;
+}
+.auth-nav .item {
+  display: flex;
+  align-items: center;
 }
 
 .nav-icon {
